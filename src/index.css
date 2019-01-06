@@ -1,0 +1,102 @@
+p {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  background-color: #003399;
+  border: 2px solid #003399;
+  color: #66CCFF;
+}
+
+body {
+  padding: 50px;
+  background-color: #66CCFF;
+  font-family: sans-serif;
+}
+
+#script1 {
+  float: left;
+  background-color: rgb(10, 138, 21);
+  border: 2px solid rgb(10, 126, 10);
+
+}
+
+#clear {
+  float: right;
+  background-color: rgb(194, 20, 8);
+  border: 2px solid rgb(0, 0, 0);
+
+}
+
+#otherbuttons {
+  background-color: #0066FF;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column-reverse;
+}
+
+.hotelListMain .header input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #FFF;
+  width: 165px;
+}
+
+.hotelListMain .header button {
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px;
+  color: #FFF;
+  border: 2px solid #0066FF;
+}
+
+.hotelListMain .header button:hover {
+  background-color: #003399;
+  border: 2px solid #003399;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.hotelListMain .theList {
+  list-style: none;
+  color: red;
+  padding-left: 0;
+  width: 250px;
+}
+
+.hotelListMain .theList li {
+  color: #333;
+  background-color: rgba(255, 255, 255, .5);
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  list-style: none;
+}
+
+ul.theList {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+}
+
+
+.theList li {
+  color: #333;
+  background-color: rgba(255, 255, 255, .5);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  transition: background-color .2s ease-out;
+}
+
+.hotelListMain .theList li:hover {
+  background-color: pink;
+  cursor: pointer;
+}
